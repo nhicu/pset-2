@@ -17,13 +17,13 @@ const Threets2 = readlineSync.question("");
 const Threets3 = readlineSync.question("");
 
 
-let Hwaverage = (Threehw1+Threehw2+Threehw3)/3;
-let Qzaverage = (Threeqz1+Threeqz2+Threeqz3)/3;
-let Tsaverage = (Threets1+Threets2+Threets3)/3;
+let hwaverage = (Threehw1+Threehw2+Threehw3)/3;
+let qzaverage = (Threeqz1+Threeqz2+Threeqz3)/3;
+let tsaverage = (Threets1+Threets2+Threets3)/3;
 
-let Hwscaled = Hwaverage*Homework;
-let Qzscaled = Qzaverage*Quizzes;
-let Tsscaled = Tsaverage*Tests;
+let hwscaled = hwaverage*Homework;
+let qzscaled = qzaverage*Quizzes;
+let tsscaled = tsaverage*Tests;
 
-let grade = Hwscaled + Qzscaled + Tsscaled;
+let grade = hwscaled + qzscaled + tsscaled;
 console.log("\nYour marking period grade is " + grade +"%.\n");
