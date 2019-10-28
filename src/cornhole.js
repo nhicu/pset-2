@@ -5,7 +5,7 @@ let w = 24;
 let d = 6;
 
 let area = l*w;
-let circlearea = .25*3.14*6*6;
+let circlearea = .25*Math.PI*6*6;
 let total = area - circlearea;
 let newtotal = total.toLocaleString("en", { minimumFractionDigits: 2, maximumFractionDigits: 2 });
 
